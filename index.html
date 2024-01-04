@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <script src="js/underscore.js" defer></script>
+    <script src="js/juego-min.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="titulo">Blackjack</header>
+    <div class="buttons">
+        <button id="btnNuevo" class="danger">Nuevo juego</button>
+        <button id="btnPedir" class="primary">Pedir carta</button>
+        <button id="btnDetener" class="primary">Detener juego</button>
+    </div>
+
+    <div class="player">
+        <h1>Jugador 1 - <small>0</small></h1>
+    </div>
+
+    <div class="cards" id="player-cards">
+    </div>
+
+    <div class="computer">
+        <h1>Computer 1 - <small>0</small></h1>
+    </div>
+
+    <div class="cards" id="computer-cards">
+    </div>
+</body>
+</html>
